@@ -1,0 +1,27 @@
+# RESUMEN DEL TEMA 10: CONSTRUCCIÓN DE MAPAS DE CALOR
+
+**Estudiante:** Chuquimago Blas, Yoel Dan  
+**Universidad:** Universidad Nacional de San Antonio Abad del Cusco (UNSAAC)  
+**Asignatura:** Programación Estadística y Visualización de Datos
+
+## 1. Herramienta más rápida
+
+La herramienta que me pareció más rápida fue Seaborn, porque mediante la función `sns.heatmap()` pude construir el mapa de calor de manera sencilla, mostrando los valores de correlación y utilizando una escala de colores. No fue necesario escribir muchas instrucciones para obtener el gráfico.
+
+## 2. Agrupamiento jerárquico
+
+Al comparar los mapas de calor de pheatmap con agrupamiento y sin agrupamiento, se puede observar la organización de las variables. La relación entre NO₂ y ruido es la más alta, con una correlación de 0.984, por lo que resulta razonable que aparezcan juntas en el agrupamiento. El orden exacto debe verificarse observando el gráfico generado.
+
+## 3. Matriz de correlación de Pearson
+
+La matriz de correlación obtenida con los datos ambientales del Tema 9 fue la siguiente:
+
+| Variable | PM10 | NO₂ | Ruido |
+|---|---:|---:|---:|
+| PM10 | 1.000 | 0.852 | 0.794 |
+| NO₂ | 0.852 | 1.000 | 0.984 |
+| Ruido | 0.794 | 0.984 | 1.000 |
+
+## 4. Conclusión
+
+Mediante esta actividad aprendí a construir mapas de calor utilizando Seaborn, ggplot2 y pheatmap. También comprendí que cada herramienta tiene diferentes formas de representar los datos. Finalmente, pude comparar las correlaciones de los indicadores ambientales e identificar que la relación más alta se encuentra entre NO₂ y ruido.
