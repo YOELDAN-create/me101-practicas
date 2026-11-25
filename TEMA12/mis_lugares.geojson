@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "UNSAAC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9587,
+          -13.52174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Cristo Blanco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.97813,
+          -13.50955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Sacsayhuaman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9807,
+          -13.5067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Bombonera Alto Los Incas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.95202,
+          -13.51717
+        ]
+      }
+    }
+  ]
+}
